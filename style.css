@@ -56,6 +56,12 @@ sidebar-grid,settings-grid{
     padding-left: 6%;
 }
 
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 30% 75%;
+}
+
 
 
 button{
@@ -65,11 +71,9 @@ button{
     font-weight: inherit;
     color: inherit;
     text-align: start;
-
-
-
 }
 header{
+    padding: 1.4rem;
     background-color: #FFFFFF;
     grid-column: 2/3;
     grid-row: 1/2;
@@ -81,3 +85,18 @@ background-color: #E2E8F0;
 grid-column: 2/3;
 
 }
+.searchbar{
+    
+}
+input[type="text"]{
+    border-radius: 0.7rem;
+    width: 75%;
+    background-color: #E2E8F0;
+    border: none;
+    height: 30px;
+   
+}
+input[type="text"]:focus{
+    outline: none;
+}
+
