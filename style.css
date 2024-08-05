@@ -4,20 +4,50 @@
     padding: 0;
     margin: 0;
     font-family: Roboto;
-    
+
 }
 
 body{
     height: 100vh;
-
+    font-size: 18px;
 }
 
 grid-container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20vh 80vh;
 }
 
 sidebar{
-    background-color: #0ca0ef;
+    background-color: #0ea5e9;
     grid-column: 1/2;
+    grid-row: 1/4;
+}
+sidebar-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+.mdi{
+    color: white;
+    padding-right: 8%;
+}
+button{
+    font-size: 1.3rem;
+    border: none;
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: 800px;
+}
+header{
+    background-color: #FFFFFF;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    box-shadow: 0 4px 2px -2px rgb(34, 27, 27);
+}
+
+main{
+background-color: #E2E8F0;
+grid-column: 2/3;
+
 }
