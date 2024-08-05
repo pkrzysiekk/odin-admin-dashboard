@@ -26,6 +26,7 @@ sidebar{
     font-weight: 700;
 
 }
+
 .sidebar-header{
     display: block;
     font-size: 2rem;
@@ -34,17 +35,29 @@ sidebar{
     width: 100%;
     margin-bottom: 10%;
 }
+sidebar .mdi{
+    padding-right: 10%;
+}
 sidebar-grid{
+    margin-bottom: 4rem;
+}
+sidebar-grid,settings-grid{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap:1rem;
 
 }
- sidebar-grid .mdi{
+
+
+
+ sidebar-grid .mdi,settings-grid .mdi{
     color: white;
     padding-right: 8%;
     padding-left: 6%;
 }
+
+
+
 button{
     font-size: 1.3rem;
     border: none;
@@ -52,6 +65,7 @@ button{
     font-weight: inherit;
     color: inherit;
     text-align: start;
+
 
 
 }
