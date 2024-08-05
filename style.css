@@ -56,11 +56,6 @@ sidebar-grid,settings-grid{
     padding-left: 6%;
 }
 
-header{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 30% 75%;
-}
 
 
 
@@ -78,6 +73,11 @@ header{
     grid-column: 2/3;
     grid-row: 1/2;
     box-shadow: 0 4px 2px -2px rgb(34, 27, 27);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 30% 75%;
+    align-items: center;
+    gap: 15px;
 }
 .profile{
     border:solid 1px #0ea5e9;
@@ -132,5 +132,15 @@ input[type="text"]{
 }
 input[type="text"]:focus{
     outline: none;
+}
+
+.buttons button{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 1.4rem;
+    padding:0.5rem 2rem;
+    
+
 }
 
