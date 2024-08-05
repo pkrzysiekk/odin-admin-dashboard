@@ -79,6 +79,10 @@ header{
     grid-row: 1/2;
     box-shadow: 0 4px 2px -2px rgb(34, 27, 27);
 }
+.searchbar span{
+    
+    height: 24px;
+}
 
 main{
 background-color: #E2E8F0;
@@ -90,7 +94,7 @@ grid-column: 2/3;
 }
 input[type="text"]{
     border-radius: 0.7rem;
-    width: 75%;
+    width: 70%;
     background-color: #E2E8F0;
     border: none;
     height: 30px;
