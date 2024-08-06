@@ -204,6 +204,20 @@ main-container{
     height: 360px;
     width: 300px;
     border-radius: 5px;
+    padding: 2rem;
+    font-size: 0.8rem;
+    
+}
+.Announcements-card p{
+    margin-bottom: 0.8rem;
+}
+.Announcements-card h3{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.info{
+    border-bottom: 1px solid #aaa
 }
 .trending{
     grid-column: 2/3;
