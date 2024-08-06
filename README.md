@@ -1,0 +1,1 @@
+The purpose of this project is to use grid to make the layout of the website.
