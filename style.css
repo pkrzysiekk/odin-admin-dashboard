@@ -145,17 +145,37 @@ input[type="text"]:focus{
 }
 .card{
     background-color: #ffffff;
-    height: 190px;
+    height: 180px;
     width: 250px;
     text-align: start;
     font-size: 1rem;
-    
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    border-radius:4px ;
+    border-left:solid orange 0.4rem;
+}
+.card p{
+    font-weight: 300;
+    padding: 4px;
+    align-self: start;
+}
+.card h3{
+    padding: 4px;
+}
+.card .buttons{
+    justify-self: end;
+    padding: 4px;
+    font-size: 20px;
+}
+.buttons span{
+    margin: 4px;
 }
 main{
     display: grid;
     grid-template-columns: 3.5fr  1fr;
     grid-template-rows: 5vh 1fr 1fr;
     gap: 20px;
+    padding-left: 1rem;
 }
 main p{
    align-self:center ;
@@ -166,4 +186,5 @@ main-container{
     grid-template-columns: repeat(auto-fit,250px);
     justify-items: center;
     gap: 20px;
+    
 }
