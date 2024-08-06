@@ -143,4 +143,27 @@ input[type="text"]:focus{
     
 
 }
-
+.card{
+    background-color: #ffffff;
+    height: 190px;
+    width: 250px;
+    text-align: start;
+    font-size: 1rem;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 3.5fr  1fr;
+    grid-template-rows: 5vh 1fr 1fr;
+    gap: 20px;
+}
+main p{
+   align-self:center ;
+}
+main-container{
+    display: grid;
+    grid-column: 1/2 ;
+    grid-template-columns: repeat(auto-fit,250px);
+    justify-items: center;
+    gap: 20px;
+}
