@@ -172,7 +172,7 @@ input[type="text"]:focus{
 }
 main{
     display: grid;
-    grid-template-columns: 3.5fr  1fr;
+    grid-template-columns: 3fr  1fr;
     grid-template-rows: 5vh 1fr 1fr;
     gap: 20px;
     padding-left: 1rem;
@@ -187,4 +187,20 @@ main-container{
     justify-items: center;
     gap: 20px;
     
+}
+.announcements{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+ 
+    
+
+
+}
+.Announcements-card{
+    background-color: white;
+    height: 360px;
+    width: 300px;
+    border-radius: 5px;
 }
